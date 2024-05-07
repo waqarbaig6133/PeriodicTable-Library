@@ -152,7 +152,7 @@ def element():
     else:
         number = input("What is the atomic number: ")
         for key, value in symbols.items():
-            if ("Atomic Number: "+ number) in value:
+            if ("Atomic Number: "+ number + " \n") in value:
                 print("symbol: ", key, "\n", value)
     retake = input("Click R if search another element or another button to exit ")
     if retake == "r" or retake == "R":
@@ -162,5 +162,3 @@ def element():
 element()
 
     
-
-
