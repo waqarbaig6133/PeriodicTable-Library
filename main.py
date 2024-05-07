@@ -147,7 +147,7 @@ def element():
         mass = input("Enter the atomic mass of the element (If possible, include 3 decimals): ")
         for key, value in symbols.items():
             if ("Molar Mass: " +mass)  in value:
-                print("symbol: ", key, "\m", value)
+                print("symbol: ", key, "\n", value)
                 
     else:
         number = input("What is the atomic number: ")
